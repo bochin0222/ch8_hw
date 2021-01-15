@@ -1,4 +1,4 @@
-# CH8 Homework
+# 106362521 黃柏勳 CH8 Homework
 
 * 執行程式
 ```
@@ -53,3 +53,6 @@ $ sh run_complete_detector.sh
 4. 最終產生曲線圖
 
 ![](https://i.imgur.com/CIpwGK0.png)
+
+## 心得
+因為本身就有在做機器學習相關的工作，所以對此程式有莫名的熟悉感。找出惡意程式名稱的特徵值。再用決策樹進行訓練，最後再用roc_curve，畫出閥值與score的曲線。由於取train,test kfold的shuffle為True，所以每次結果都不太一樣，不需要感到很奇怪。
